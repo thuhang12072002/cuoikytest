@@ -21,7 +21,8 @@ if( $ed_banner && has_custom_header() ){ ?>
                             if( $banner_title ) echo '<h2 class="title">' . esc_html( $banner_title ) . '</h2>';
                             if( $banner_subtitle ) echo '<div class="description">' . wpautop( wp_kses_post( $banner_subtitle ) ) . '</div>';
                         ?>
-                        <div class="form-wrap">
+                        
+                             <div class="form-wrap">
                             <div class="search-filter-wrap">
                             <?php 
                                 if ( jobscout_is_wp_job_manager_activated() ) { 
@@ -35,7 +36,10 @@ if( $ed_banner && has_custom_header() ){ ?>
                                 }
                             ?>
                             </div>
+                        <div class="boxshow">
                         </div>
+                        </div>
+                       
                     </div>
                 </div>
             </div>
